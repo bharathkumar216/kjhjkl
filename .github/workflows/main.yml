@@ -18,7 +18,6 @@ name: Java CI
         with:
           distribution: 'temurin'
           java-version: '17'
- 
       # Step 3: Compile Java code
       - name: Compile Java
         run: javac *.java
